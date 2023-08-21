@@ -1,0 +1,7 @@
+Définir une variable pour l'âge de l'utilisateur.
+Afficher:
+"l'utilisateur est adulte" (+18)
+OU 
+"l'utilisateur est un ado" (+13)
+OU 
+"l'utilisateur est un bébé" 

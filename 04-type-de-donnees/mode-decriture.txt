@@ -1,0 +1,6 @@
+ceciEstDuLowerCamelCase
+CeciEstDuUpperCamelCase  ----  En PHP permet l'autoload 
+ceci_est_du_snake  ----  "Serpent"
+ceci-est-du-slug  ---- "Limace"
+
+----  La casse est super importante dans le nom des variables et des fonctions  ----

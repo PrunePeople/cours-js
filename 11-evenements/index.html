@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Evenements de sourie</h2>
+    <button id="btn_1">Simple click</button>
+    <div id="div_1">Double click</div>
+    <div id="div_2">Mouse Over/Out</div>
+
+    <h2>Evenements de clavier</h2>
+    <style>
+        .log {
+            border: 3px solid red;
+        }
+    </style>
+
+    <div>
+        KeyUp
+        <input type="text" name="firstname">
+    </div>
+    <div id="keyUpLog" class="log"></div>
+    <hr>
+    <div>
+        KeyDown
+        <input type="text" name="lastname">
+    </div>
+    <div id="keyDownLog" class="log"></div>
+    <hr>
+    <div>
+        KeyPress
+        <input type="text" name="nickname">
+    </div>
+    <div id="keyPressLog" class="log"></div>
+    <hr>
+    <div>
+        onChange1
+        <input type="email" name="email">
+    </div>
+    <div id="onChangeLog_1" class="log"></div>
+    <hr>
+    <div>
+        onChange2
+        <select name="gender">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+            <option value="N">Neutral</option>
+        </select>
+    </div>
+    <div id="onChangeLog_2" class="log"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
